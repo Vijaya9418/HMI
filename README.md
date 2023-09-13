@@ -16,6 +16,9 @@ Some examples of common Human Machine Interface devices that we encounter in our
 
 A computer program that manages or organize the several other program at the same time. 
 
+![HMI overview](https://github.com/Vijaya9418/HMI/assets/56352158/8b953ce5-7111-477e-b5fa-eeaeb678e23e)
+
+
 
 
 **Is a HMI a PLC?**
