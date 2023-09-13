@@ -7,6 +7,8 @@
 
 The full form of HMI is Human Machine Interface which is a component and features for car hardware and software applications that allows driver and passangers to engage with the vehile as well as the outside world.
 
+It has operating pannel and a monitoring screen.
+
 
 It is used as an operator control panel to PLCs, RTUs, and in some cases directly to IEDs.
 
@@ -40,6 +42,8 @@ Human Machine Interface (HMI) and Programmable Logic Controller (PLC) interface 
 
 
 ![HMI and PLC connection](https://github.com/Vijaya9418/HMI/assets/56352158/dea1cf19-e007-48d1-a239-7f45bd6eb315)
+
+The person programming the HMI has to program each indicator and button to specific input and output address of PLC.So the PLC and HMI should be compatiple
 
 
 
