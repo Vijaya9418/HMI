@@ -43,7 +43,22 @@ Human Machine Interface (HMI) and Programmable Logic Controller (PLC) interface 
 
 ![HMI and PLC connection](https://github.com/Vijaya9418/HMI/assets/56352158/dea1cf19-e007-48d1-a239-7f45bd6eb315)
 
-The person programming the HMI has to program each indicator and button to specific input and output address of PLC.So the PLC and HMI should be compatiple
+The person programming the HMI has to program each indicator and button to specific input and output address of PLC.So the PLC and HMI should be compatiple.
+
+
+**what is a SCADA?**
+
+The full form of SCADA is Supervisory Control and Data Acquisition which is responsible for monitoring and controlling the field devices that we use in remote places.
+
+HMI is simply a part of SCADA
+
+![scada](https://github.com/Vijaya9418/HMI/assets/56352158/ac6a9a4d-9486-4ef2-ba7d-14f5cbdbc075)
+
+
+ There are two basic types of HMI software: supervisory level and machine level.
+
+
+
 
 
 
