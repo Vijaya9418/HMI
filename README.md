@@ -19,6 +19,9 @@ A computer program that manages or organize the several other program at the sam
 ![HMI overview](https://github.com/Vijaya9418/HMI/assets/56352158/8b953ce5-7111-477e-b5fa-eeaeb678e23e)
 
 
+What is PLC?
+
+The full form of PLC is Programming Logic Controller  which process the given information(Input), execute the given command or instruction given from the program and deliver the result output.
 
 
 **Is a HMI a PLC?**
