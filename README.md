@@ -1,5 +1,8 @@
 # HMI
 
+![main HMI](https://github.com/Vijaya9418/HMI/assets/56352158/a10ef1ba-4e11-44c9-9d98-23d75e232732)
+
+
 **What is HMI?**
 
 The full form of HMI is Human Machine Interface which is a component and features for car hardware and software applications that allows driver and passangers to engage with the vehile as well as the outside world.
