@@ -123,7 +123,12 @@ It helps to automates the project setup for developers to work with C/C++ and ja
 
 Both is runtime library, but ART(Android run time) have more advantages than dalvik, becoz in dalvik byte codes converts the code into machine language which will slow down the running efficiency of the code.
 
-But with the help of ART the code of all the appliaction will be pre compiled into machine code, when it is first installed in the device
+But with the help of ART the code of all the appliaction will be pre compiled into machine code, when it is first installed in the device.
+
+
+What is SELinux?
+
+It stands for Security Enhance linux. which is a set of rules which will imporve the security of your system.
 
 
 
