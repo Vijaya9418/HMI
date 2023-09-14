@@ -119,6 +119,14 @@ AIDEGen:-
 
 It helps to automates the project setup for developers to work with C/C++ and java project in popular IDE. developers no longer needs to manually configure an intellij setup.
 
+**why dalvik is converting into APT or what is the difference between Dalvik and ART?**
+
+Both is runtime library, but ART(Android run time) have more advantages than dalvik, becoz in dalvik byte codes converts the code into machine language which will slow down the running efficiency of the code.
+
+But with the help of ART the code of all the appliaction will be pre compiled into machine code, when it is first installed in the device
+
+
+
 
 
 
