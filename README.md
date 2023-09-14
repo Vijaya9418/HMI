@@ -99,13 +99,19 @@ Repo:- It is a source code manager just like git, it is build over Git in order 
 
 common aosp commands
 
-gettop - get the top aosp directory. example :- cd $(gettop)/framework/base
-croot - change the current directory to the root AOSP.
-mm - Build the package
-cgrep - only matches the source files in C/C++ language.
-jgrep - only matches the source files in java language.
-resgrep - only matches the XML file present in XML folder.
-godir - goto a directory having the provided file.
+gettop - get the top aosp directory. example :- cd $(gettop)/framework/base <br>
+
+croot - change the current directory to the root AOSP.<br>
+
+mm - Build the package.<br>
+
+cgrep - only matches the source files in C/C++ language.<br>
+
+jgrep - only matches the source files in java language.<br>
+
+resgrep - only matches the XML file present in XML folder.<br>
+
+godir - goto a directory having the provided file.<br>
 
 
 
