@@ -97,7 +97,8 @@ System Application:- It is the top-most layer of Android AOSP architecture which
 Repo:- It is a source code manager just like git, it is build over Git in order to manage the code more efficiently.
 
 
-common aosp commands
+**common aosp commands**
+
 
 gettop - get the top aosp directory. example :- cd $(gettop)/framework/base <br>
 
@@ -112,6 +113,11 @@ jgrep - only matches the source files in java language.<br>
 resgrep - only matches the XML file present in XML folder.<br>
 
 godir - goto a directory having the provided file.<br>
+
+
+AIDEGen:-
+
+It helps to automates the project setup for developers to work with C/C++ and java project in popular IDE. developers no longer needs to manually configure an intellij setup.
 
 
 
