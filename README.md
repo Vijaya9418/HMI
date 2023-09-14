@@ -75,6 +75,26 @@ The software stack for AOSP contains the following layers:
 <img src="https://github.com/Vijaya9418/HMI/assets/56352158/3100f82f-c086-487a-bbfa-daefd7d2f732" width="300">,<img src="https://github.com/Vijaya9418/HMI/assets/56352158/12451d56-ac89-4458-b42b-6d4b2cd659a6" width="300">
 
 
+There are 4 main components of AOSP architecture:
+
+Linux Kernel
+
+Libraries
+
+Application Framework
+
+System Applications.
+
+
+Linux kernel:- It is the bottom most layer and is a core of android architecture.It provides various features, such as Security, Memory Management, Multitasking, Device Management, and Process Management. It also provides the basic functionality of the kernel.
+
+Libraries:-This layer in Android AOSP provides the necessary infrastructure for applications to run. It consists of a set of libraries and Android runtime.
+
+Application framework:- The application framework provides the APIs that allow developers to create Android apps, as well as a set of standard app components (such as activities, services, and content providers) that developers can use to build their apps.
+
+System Application:- It is the top-most layer of Android AOSP architecture which is the user interface. This layer has native Android applications and third-party installed applications, and it also works around managing user input. 
+
+
 
 
 
