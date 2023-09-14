@@ -70,7 +70,9 @@ AOSP can't provide support for apps that require backend services, such as a clo
 
 The software stack for AOSP contains the following layers:
 
-<img background="white" src="https://github.com/Vijaya9418/HMI/assets/56352158/a29ff744-83f8-4f98-98b0-34c8f370ddea" width="300">,<img src="https://github.com/Vijaya9418/HMI/assets/56352158/12451d56-ac89-4458-b42b-6d4b2cd659a6" width="300">
+
+
+<img src="https://github.com/Vijaya9418/HMI/assets/56352158/3100f82f-c086-487a-bbfa-daefd7d2f732" width="300">,<img src="https://github.com/Vijaya9418/HMI/assets/56352158/12451d56-ac89-4458-b42b-6d4b2cd659a6" width="300">
 
 
 
