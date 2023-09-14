@@ -62,6 +62,20 @@ HMI is simply a part of SCADA
 
 ** what is AOSP architechture?**
 
+AOSP stands for android Open System Platform, which maintains the complete software stack. It is a publically available and modifiable source code whcih anyone can download and modify the AOSP for their devices. It includes middleware, operating system and key applications, combination of libraries, API that let the developer to build their android application.
+
+The AOSP framework is written in Java and is designed to be flexible and extensible, allowing developers to build and run a wide range of applications on Android devices.
+
+AOSP can't provide support for apps that require backend services, such as a cloud messaging or advanced location services app. 
+
+The software stack for AOSP contains the following layers:
+![image](https://github.com/Vijaya9418/HMI/assets/56352158/a29ff744-83f8-4f98-98b0-34c8f370ddea)
+![aosp architecture](https://github.com/Vijaya9418/HMI/assets/56352158/047d59f8-f3c6-4cfa-b6fd-466e42797cd2)
+
+
+
+
+
  
 
 
