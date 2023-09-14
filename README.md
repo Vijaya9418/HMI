@@ -7,6 +7,8 @@
 
 The full form of HMI is Human Machine Interface which is a component and features for car hardware and software applications that allows driver and passangers to engage with the vehile as well as the outside world.
 
+Or in simple words we can say that an HMI is a screen that allows operator to interact with control system which is controlling the process
+
 It has operating pannel and a monitoring screen.
 
 
@@ -56,6 +58,11 @@ HMI is simply a part of SCADA
 
 
  There are two basic types of HMI software: supervisory level and machine level.
+ 
+
+** what is AOSP architechture?**
+
+ 
 
 
 
