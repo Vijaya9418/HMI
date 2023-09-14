@@ -94,6 +94,20 @@ Application framework:- The application framework provides the APIs that allow d
 
 System Application:- It is the top-most layer of Android AOSP architecture which is the user interface. This layer has native Android applications and third-party installed applications, and it also works around managing user input. 
 
+Repo:- It is a source code manager just like git, it is build over Git in order to manage the code more efficiently.
+
+
+common aosp commands
+
+gettop - get the top aosp directory. example :- cd $(gettop)/framework/base
+croot - change the current directory to the root AOSP.
+mm - Build the package
+cgrep - only matches the source files in C/C++ language.
+jgrep - only matches the source files in java language.
+resgrep - only matches the XML file present in XML folder.
+godir - goto a directory having the provided file.
+
+
 
 
 
