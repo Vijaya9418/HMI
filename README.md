@@ -180,6 +180,9 @@ because before android 7 we used .mk file for building but it was error prone, p
 .bp --> soong build logic --> .ninja --> ninja build system --> .so,.apk,.jar
 
 
+![soong](https://github.com/Vijaya9418/HMI/assets/56352158/5bc73f40-828b-4b13-9e06-5baf059c4f51)
+
+
 
 
 first step for the build is to execute the envsetup.sh file for this we use the command source build envsetup.sh<br>
