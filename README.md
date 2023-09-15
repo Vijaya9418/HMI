@@ -122,6 +122,8 @@ godir - goto a directory having the provided file.<br>
 4. build:- it contains the build system. some shell files such as envsetup.sh, common shell scripts, make and soong folders here.
 5. compatiblity:- CDD(Compatibility definition document) it is a documentation folder.
 6. cts:- android compatibity test suit standards.
+7. Frameworks:- Android framework is very important which are written in java and C++. where we can find all the system service and core implementation of android.
+   framework/base/core/java/android/content/
 
 **AIDEGen:-**
 
@@ -167,6 +169,22 @@ fork mechanism:- it will create the new process by duplicating the exisisting pr
 inside init.rc file there is one command written which is **class_start main** which will start the zygote main process.
 
 6. zygote starts the system server which is done through fork system server.inside which we have different services responsible for starting the services like audio, camera, etc.
+
+
+
+Soong build system:-
+
+So we have varioud build system like soong, make, ninja etc. So we can see that we hav two type of build files, file.bp(blueprint) and file.mk(make), why we have two type of files. 
+because before android 7 we used .mk file for building but it was error prone, pretty slow and unscallable and was difficult to test. then google decided to use the new build system called soong.It is similar to the json format. which basically converts the *.bp files to *.ninja files
+
+.bp --> soong build logic --> .ninja --> ninja build system --> .so,.apk,.jar
+
+
+
+
+first step for the build is to execute the envsetup.sh file for this we use the command source build envsetup.sh<br>
+hmm is a command which we can run to see all the available command presnt<br>
+then the lunch command which shows you the lunch menu(build variants avaibale to AOSP
 
 
 
