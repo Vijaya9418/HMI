@@ -115,7 +115,15 @@ resgrep - only matches the XML file present in XML folder.<br>
 godir - goto a directory having the provided file.<br>
 
 
-AIDEGen:-
+**AOSP main folder:-**
+1. ART :- Android runtime, this folder contains the modules realated to android runtime like dalvik virtual machine, dex compilers, JVM etc.
+2. bionic:- It is a android custom C library which contains, math library,Clibrary, dynamic linker etc.
+3. bootable:- it contains boot related code. bootloader,OTA(Over the Air update),recovery mechanism.
+4. build:- it contains the build system. some shell files such as envsetup.sh, common shell scripts, make and soong folders here.
+5. compatiblity:- CDD(Compatibility definition document) it is a documentation folder.
+6. cts:- android compatibity test suit standards.
+
+**AIDEGen:-**
 
 It helps to automates the project setup for developers to work with C/C++ and java project in popular IDE. developers no longer needs to manually configure an intellij setup.
 
@@ -126,7 +134,7 @@ Both is runtime library, but ART(Android run time) have more advantages than dal
 But with the help of ART the code of all the appliaction will be pre compiled into machine code, when it is first installed in the device.
 
 
-What is SELinux?
+**What is SELinux?**
 
 It stands for Security Enhance linux. which is a set of rules which will imporve the security of your system.
 
@@ -151,6 +159,14 @@ init process:- In this we have main file which include 3 main properties which a
 2. SELinux:- It loads all the set of selinux policies and sets the enforcement of SELinux polocies.
 3. SecondStageMain:- this is implemented in init.cpp in whcih main method is propertyInit() which will initialize the property within the system.
 
+
+5. Zygote process:- In android system, the android runtime, dalvik virtual machine,app process, system service are all done by zygote process. It uses the fork mechanism for system service and app process.
+
+fork mechanism:- it will create the new process by duplicating the exisisting process from which it is called. It contains init.zygote64.rc file in which the code is written in android.
+
+inside init.rc file there is one command written which is **class_start main** which will start the zygote main process.
+
+6. zygote starts the system server which is done through fork system server.inside which we have different services responsible for starting the services like audio, camera, etc.
 
 
 
