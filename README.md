@@ -130,6 +130,31 @@ What is SELinux?
 
 It stands for Security Enhance linux. which is a set of rules which will imporve the security of your system.
 
+**Boot Loader path?**
+
+![boot loader](https://github.com/Vijaya9418/HMI/assets/56352158/5aabc485-eeb3-4fe5-b316-1f332c19a4cd)
+
+1. In this first step is the power on and the system starts which is hardcoded in the ROM and this will load the boot loader into the RAM.
+2. Boot loader is a small program that runs before the operating system starts whose main function is to start the system OS.
+3. Once the lunux kernel starts it loads all the system like cache, audio, video drivers.
+4. When the kernel finishes to load these systems, iy looks for the init.rc file and then it starts the root process.
+
+So, this init process does 4 things:-
+1. It will create some folders and mount the devices.
+2. It will setup SELinux policies.
+3. Initialize and starts the property service.
+4. parse the init.rc file and starts the zygote process.
+
+init process:- In this we have main file which include 3 main properties which are:-
+
+1. FirstStageMain :- it is responsible for creating the directory and mounting the devices.
+2. SELinux:- It loads all the set of selinux policies and sets the enforcement of SELinux polocies.
+3. SecondStageMain:- this is implemented in init.cpp in whcih main method is propertyInit() which will initialize the property within the system.
+
+
+
+
+
 
 
 
