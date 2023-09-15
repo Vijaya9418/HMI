@@ -184,7 +184,16 @@ because before android 7 we used .mk file for building but it was error prone, p
 
 first step for the build is to execute the envsetup.sh file for this we use the command source build envsetup.sh<br>
 hmm is a command which we can run to see all the available command presnt<br>
-then the lunch command which shows you the lunch menu(build variants avaibale to AOSP
+then the lunch command which shows you the lunch menu(build variants avaibale to AOSP.
+
+
+What is an overlay?
+
+In simple words, runtime resource overlay is a package that changes the resource value of a target package. "An apk with only one resource file in it".
+
+It can technically overlayed all the resource files like layouts, strings,colors,drawables and other resource file. with the help of which we can changes the look and feel of an application.
+
+We cannot overlayed any source code files present in java and kotlin file
 
 
 
