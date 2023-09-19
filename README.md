@@ -138,7 +138,17 @@ But with the help of ART the code of all the appliaction will be pre compiled in
 
 **What is SELinux?**
 
-It stands for Security Enhance linux. which is a set of rules which will imporve the security of your system.
+It stands for Security Enhance linux. which is a set of rules which will imporve the security of your system.<br>
+It is a labelling system, every process has a label.we lable the process in order to enhance the security of a process.
+
+MAC(Mandatory Access Control).<br>
+DAC(Discretionary Access Control).<br>
+these both are most important access control, the diff between them is that how they provide the access to the system.
+
+MAC determines that which subjects(android process) can access specific data objects(files,sokets).<br>
+DAC the owner of the object determines which subject can access the object.
+
+**.te** file we write the rules for SELinux policies.
 
 **Boot Loader path?**
 
