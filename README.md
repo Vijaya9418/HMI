@@ -230,6 +230,8 @@ steps,<br>
 It is the animation screen or the splash screen when we start the emulator. in this we write 6-7 steps which are in numberic form and add the animation file in the same folder and compress it, then we run some commands for boot animation.
 
 
+
+
 **what is system services?**
 
 system services acts as a bridge between the harware abstraction layer and applications.
@@ -243,6 +245,8 @@ There are manily tow types of system servers:-
 
 **what is KML?**<br>
 KML(keyHole markup language) is a file format used to display geographic data in an Earth browser such as Google Earth.
+
+
 
 **What is Binder?**
 
