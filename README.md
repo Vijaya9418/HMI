@@ -237,8 +237,22 @@ for example:- when we take pictures through the camera we communicate through th
 
 There are manily tow types of system servers:-
 
-1.Media server.
-2. System server.
+1.Media server.(it involves media player, camera, audio player etc.)
+2. System server.(it involves search, window, notifications etc.)
+
+
+**what is KML?**<br>
+KML(keyHole markup language) is a file format used to display geographic data in an Earth browser such as Google Earth.
+
+**What is Binder?**
+
+It is a interprocess Communication (IPC) in android.It helps you to communicate and share the services with earch other.<br>
+
+Example:-  processes in android have different spaces, so one process cannot be access the other process which is called process isolation.However, if a process wants to offer some useful files or services to another process then for this we need some communication , so for this we use IPC.
+
+If we want to communicate between the system apps and android apps, then we need a binder to communicate with each other.
+
+
 
 
 
