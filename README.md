@@ -201,6 +201,16 @@ We cannot overlayed any source code files present in java and kotlin file.
 ![rro](https://github.com/Vijaya9418/HMI/assets/56352158/c2e2c237-32ad-4898-959f-18bedea227c9)
 
 
+**What is ADB?**
+
+It is a android debug bridge which is a command line rule that lets us to communcate with an android device. It is the most imp tool that will we use working with android studio. <br>
+It is widely used for debugging, installing, logging the app and also to access the unit shell of a device.
+
+steps,<br>
+
+1. adb command to invoke the client.
+2. adb daemon which runs the commands on a device which runs as a background process through each device.
+
 
 
 
