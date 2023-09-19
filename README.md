@@ -210,6 +210,18 @@ steps,<br>
 
 1. adb command to invoke the client.
 2. adb daemon which runs the commands on a device which runs as a background process through each device.
+3. adb server which manages the communication between the client and the daemon.
+
+   1. if you want to start the adb from the root - adb root
+
+   
+  2. adb start-server
+   adb stop-server
+   adb kill-server
+
+3. 
+
+   
 
 
 
