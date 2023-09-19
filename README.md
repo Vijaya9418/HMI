@@ -227,7 +227,20 @@ steps,<br>
 
 **What is boot animation?**
 
-It is the animation screen or the splash screen when we start the emulator.
+It is the animation screen or the splash screen when we start the emulator. in this we write 6-7 steps which are in numberic form and add the animation file in the same folder and compress it, then we run some commands for boot animation.
+
+
+**what is system services?**
+
+system services acts as a bridge between the harware abstraction layer and applications.
+for example:- when we take pictures through the camera we communicate through the system services to the camera hardware drivers.
+
+There are manily tow types of system servers:-
+
+1.Media server.
+2. System server.
+
+
 
    
 
