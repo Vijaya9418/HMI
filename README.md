@@ -215,11 +215,19 @@ steps,<br>
    1. if you want to start the adb from the root - adb root
 
    
-  2. adb start-server
-   adb stop-server
-   adb kill-server
+  2. adb start-server<br>
+   adb stop-server<br>
+   adb kill-server<br>
 
-3. 
+3. exit - to exit the shell.
+
+4. If you need to connect to the device then adb -d shell.
+5. If you need to connect to the emulator then adb -e shell.
+
+
+**What is boot animation?**
+
+It is the animation screen or the splash screen when we start the emulator.
 
    
 
