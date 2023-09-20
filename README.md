@@ -1,4 +1,4 @@
-# HMI
+# HMI  AND  AOSP ARCHITECTURE
 
 ![main HMI](https://github.com/Vijaya9418/HMI/assets/56352158/a10ef1ba-4e11-44c9-9d98-23d75e232732)
 
