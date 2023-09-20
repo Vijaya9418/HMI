@@ -272,6 +272,11 @@ If we want to communicate between the system apps and android apps, then we need
 The purpose of shared library addon is to share some of the library with your embeded device may be to a vendor or your external partner. lets suppose we are working with OEM like samsumg so there might be so many vendors, so if we want to provide the HAL to your partner , so what we can do is , we can create a shared library addon which we can embed to the Sdk . and store it in the web, and your partner can you it from there.
 
 
+to build the add-on:-
+
+make -j8 PRODUCT- yourLibrary- sdk_addon
+
+
 
 
 
