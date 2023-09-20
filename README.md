@@ -277,6 +277,10 @@ to build the add-on:-
 make -j8 PRODUCT- yourLibrary- sdk_addon
 
 
+![image](https://github.com/Vijaya9418/HMI/assets/56352158/09e04c48-a0bb-43da-b807-09ed6f27c6c8)
+
+
+
 
 
 
